@@ -62,6 +62,7 @@ public class ClientFrame extends JFrame {
         for(int i=0;i<9;i++){
             jbtn[i]=new JButton("");
             jbtn[i].setBackground(new Color(149, 97, 234));
+            jbtn[i].setEnabled(false);
             jpnCenter.add(jbtn[i]);
         }
 

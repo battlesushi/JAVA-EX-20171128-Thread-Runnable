@@ -62,6 +62,7 @@ public class ServerFrame extends JFrame {
         for(int i=0;i<9;i++){
             jbtn[i]=new JButton("");
             jbtn[i].setBackground(new Color(125, 125, 125));
+            jbtn[i].setEnabled(false);
             jpnCenter.add(jbtn[i]);
         }
 
